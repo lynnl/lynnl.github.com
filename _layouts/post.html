@@ -57,7 +57,13 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
 
 <section id="content"><!-- #content -->
 <div class="newsbox">
+<div id="post">
+<h1>{{ page.title }}</h1>
+
+<p class="meta">{{page.date | date_to_string}} -{{page.place}}</p>
 {{ content }}
+</div>
+
 </div>
 </section>
 

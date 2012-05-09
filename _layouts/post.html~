@@ -45,7 +45,14 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
     
 <div id="wrapper"><!-- #wrapper -->
     <section id="main"><!-- #main content and sidebar area -->
-<aside id="sidebar1"><!-- sidebar1 -->
+    <aside id="sidebar1"><!-- sidebar1 -->
+     <div>
+        <ul>
+		<li><img src="/images/folio2.jpg" width="155px" alt="" /></li>
+
+	<li>Have a Nice Day!</li>
+</ul>
+</div>
 </aside><!-- end of sidebar1 -->
 
 <section id="content"><!-- #content -->
