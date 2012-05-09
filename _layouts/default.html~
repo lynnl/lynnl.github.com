@@ -1,67 +1,23 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8" />
-<title>Lynn's Home</title>
-<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 
-<style type="text/css" media="screen">
-h1.fontface {font: 32px/38px 'MichromaRegular', Arial, sans-serif;letter-spacing: 0;}
-
-p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
-
-
-@font-face {
-    font-family: 'MichromaRegular';
-     src: url('Michroma-webfont.eot');
-     src: url('Michroma-webfont.eot?#iefix') format('embedded-opentype'),
-               url('Michroma-webfont.woff') format('woff'),
-         url('Michroma-webfont.ttf') format('truetype'),
-         url('Michroma-webfont.svg#MichromaRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-</style>
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-</head>
+{% include head.html %}
+{% include menu.html %}
 <body>
-<header>
-   <div class="container1">
-    <!--start title-->
-    <h1 class="fontface" id="title">Lynn's Home</h1>
-    <!--end title-->
-   </div>
-</header>
-<!--end header-->
- 
-<nav>
-<div class="menu">
-    <ul>
-    <li><a href="/">Blogs</a></li>
-    <li><a href="#">Photoes</a></li>
-    </ul>
-    </nav>
-    
 <div id="wrapper"><!-- #wrapper -->
     <section id="main"><!-- #main content and sidebar area -->
-    <aside id="sidebar1"><!-- sidebar1 -->
-        <ul>
-		<li><img src="/images/folio2.jpg" width="155px" alt="" /></li>
+    {% include siderbar1.html %}
 
-	<li>Have a Nice Day!</li>
-    </ul>
-</aside><!-- end of sidebar1 -->
-
-<section id="content"><!-- #content -->
-<div class="newsbox">
-{{ content }}
-</div>
-</section>
-
-<aside id="sidebar2"><!-- sidebar2 -->
-</aside><!-- end of sidebar -->
-    </section><!-- end of #main content and sidebar-->
+    {% if("true") %}       
+    <section id="content"><!-- #content -->
+	         <div class="newsbox">
+            		{{ content }}
+        	 </div>
+		 </section>
+		 {% else %}
+		 ddd
+		 {% endif %}
+      
 </div>
 
 <!-- Free template distributed by http://freehtml5templates.com -->

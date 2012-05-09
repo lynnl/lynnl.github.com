@@ -1,6 +1,3 @@
-<!doctype html>
-<html lang="en">
-
 <head>
 <meta charset="utf-8" />
 <title>Lynn's Home</title>
@@ -35,52 +32,4 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
    </div>
 </header>
 <!--end header-->
-
-
-<nav>
-<div class="menu">
-    <ul>
-    <li><a href="/">Blogs</a></li>
-    <li><a href="#">Photoes</a></li>
-    </ul>
-    </nav>
-
-<body>
-<div id="wrapper"><!-- #wrapper -->
-    <section id="main"><!-- #main content and sidebar area -->
-    <aside id="sidebar1"><!-- sidebar1 -->
-        <div>
-            <ul>
-		<li><img src="/images/folio2.jpg" width="155px" alt="" /></li>
-		<li>Have a Nice Day!</li>
-            <ul>
-        </div>
-     </aside><!-- end of sidebar1 -->
-
-
-           
-    <section id="content"><!-- #content -->
-	         <div class="newsbox">
-            		<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    
-    <li><span>08 May 2012</span> &raquo; <a href="/2012/05/08/My-First-Blog.html">First Jekyll Blog</a></li>
-    
-    <li><span>22 Nov 2011</span> &raquo; <a href="/2011/11/22/open-source-everything.html">Open Source (Almost)</a></li>
-    
-  </ul>
-  
-</div>
-
-
-        	 </div>
-		 </section>
-      
-</div>
-
-<!-- Free template distributed by http://freehtml5templates.com -->
-</body>
-</html>
-
 

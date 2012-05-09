@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lynn's Home
+homepage:true
 ---
 
 <div id="home">
@@ -12,3 +13,4 @@ title: Lynn's Home
   </ul>
   
 </div>
+

@@ -1,6 +1,4 @@
-<!doctype html>
-<html lang="en">
-	<head>
+<head>
 <meta charset="utf-8" />
 <title>Lynn's Home</title>
 <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
@@ -34,60 +32,10 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
    </div>
 </header>
 <!--end header-->
-
-
-	<nav>
+<nav>
 <div class="menu">
     <ul>
     <li><a href="/">Blogs</a></li>
     <li><a href="#">Photoes</a></li>
     </ul>
     </nav>
-
-<body>
-
-   
-<div id="wrapper"><!-- #wrapper -->
-    <section id="main"><!-- #main content and sidebar area -->
-    	<aside id="sidebar1"><!-- sidebar1 -->
-        <div>
-            <ul>
-		<li><img src="/images/folio2.jpg" width="155px" alt="" /></li>
-		<li>Have a Nice Day!</li>
-            <ul>
-        </div>
-     </aside><!-- end of sidebar1 -->
-
-
-    	<section id="content"><!-- #content -->
-		<div class="newsbox">
-			<div id="post">
-				<h1>First Jekyll Blog</h1>
-				<p class="meta">08 May 2012 -WuXi</p>
-				<p>This is my first jekyll blog.
-Congratuations!</p>
-
-			</div>
-
-		</div>
-	</section>
-
-<aside id="sidebar2"><!-- sidebar2 -->
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    
-      <li><span>22 Nov 2011</span> &raquo; <a href="/2011/11/22/open-source-everything.html">Open Source (Almost)</a></li>
-      
-  </ul>
-</div>
-</aside><!-- end of sidebar -->
-    </section><!-- end of #main content and sidebar-->
-</div>
-
-<!-- Free template distributed by http://freehtml5templates.com -->
-</body>
-</html>
-
-
-
