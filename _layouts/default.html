@@ -1,35 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<title>{{page.title}}</title>
-	<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<meta charset="utf-8" />
+<title>Lynn's Home</title>
+<link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 
-	<style type="text/css" media="screen">
-		h1.fontface {font: 32px/38px 'MichromaRegular', Arial, sans-serif;letter-spacing: 0;}
+<style type="text/css" media="screen">
+h1.fontface {font: 32px/38px 'MichromaRegular', Arial, sans-serif;letter-spacing: 0;}
 
-		p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
-		
-		
-		@font-face {
-   		 font-family: 'MichromaRegular';
-    		 src: url('Michroma-webfont.eot');
-    		 src: url('Michroma-webfont.eot?#iefix') format('embedded-opentype'),
-              	 url('Michroma-webfont.woff') format('woff'),
-        	 url('Michroma-webfont.ttf') format('truetype'),
-        	 url('Michroma-webfont.svg#MichromaRegular') format('svg');
-   		 font-weight: normal;
-   		 font-style: normal;
-		}
-	</style>
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
+
+
+@font-face {
+    font-family: 'MichromaRegular';
+     src: url('Michroma-webfont.eot');
+     src: url('Michroma-webfont.eot?#iefix') format('embedded-opentype'),
+               url('Michroma-webfont.woff') format('woff'),
+         url('Michroma-webfont.ttf') format('truetype'),
+         url('Michroma-webfont.svg#MichromaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
 <header>
    <div class="container1">
     <!--start title-->
-    <h1 class="fontface" id="title">{{page.title}}</h1>
+    <h1 class="fontface" id="title">Lynn's Home</h1>
     <!--end title-->
    </div>
 </header>
@@ -37,28 +37,37 @@
  
 <nav>
 <div class="menu">
-    <ul>    
-   	 <li><a href="/">Blogs</a></li>
-    	 <li><a href="#">Photoes</a></li>
+    <ul>
+    <li><a href="/">Blogs</a></li>
+    <li><a href="#">Photoes</a></li>
     </ul>
-</nav>
+    </nav>
+    
 <div id="wrapper"><!-- #wrapper -->
     <section id="main"><!-- #main content and sidebar area -->
-	<aside id="sidebar1"><!-- sidebar1 -->
-	</aside><!-- end of sidebar1 -->        
+    <aside id="sidebar1"><!-- sidebar1 -->
+    <div>
+        <ul>
+		<li><img src="/images/folio2.jpg" width="155px" alt="" /></li>
 
-	<section id="content"><!-- #content -->
-		<div class="newsbox">
-			{{ content }}
-		</div>
-	</section>
+	<li>Have a Nice Day!</li>
+</ul>
+</div>
+</aside><!-- end of sidebar1 -->
 
-	<aside id="sidebar2"><!-- sidebar2 -->
-	</aside><!-- end of sidebar -->
+<section id="content"><!-- #content -->
+<div class="newsbox">
+{{ content }}
+</div>
+</section>
+
+<aside id="sidebar2"><!-- sidebar2 -->
+</aside><!-- end of sidebar -->
     </section><!-- end of #main content and sidebar-->
 </div>
 
 <!-- Free template distributed by http://freehtml5templates.com -->
 </body>
 </html>
+
 

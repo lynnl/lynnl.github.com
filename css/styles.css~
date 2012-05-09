@@ -198,7 +198,7 @@ h4{
 	padding-bottom:10px;
 }
 
-a:link, a:visited {
+a:link {
 color:#191919;
 text-decoration:none;
 font-size:14px;

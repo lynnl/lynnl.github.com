@@ -120,7 +120,7 @@ background: #fff;
 width: 940px;
 margin: 0 auto;
 padding-top: 30px;
-background: #FFF url(images/colbg.png) repeat-y;
+background: #FFF url(/images/colbg.png) repeat-y;
 overflow: hidden;
 }
 
@@ -407,7 +407,7 @@ color: #faf0e6;
 	left:100px;
 	width:401px;
 	height:58px;
-	background-image: url(images/intro.png);
+	background-image: url(/images/intro.png);
 	margin: 0 auto;
 	display: block;
 	color:#fff;
