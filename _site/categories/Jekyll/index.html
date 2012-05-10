@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-	<head>
+
+<head>
 <meta charset="utf-8" />
 <title>Lynn's Home</title>
 <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen" />
@@ -36,7 +37,7 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
 <!--end header-->
 
 
-	<nav>
+<nav>
 <div class="menu">
     <ul>
     <li><a href="/">Blogs</a></li>
@@ -45,11 +46,9 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
     </nav>
 
 <body>
-
-   
 <div id="wrapper"><!-- #wrapper -->
     <section id="main"><!-- #main content and sidebar area -->
-    	<aside id="sidebar1"><!-- sidebar1 -->
+    <aside id="sidebar1"><!-- sidebar1 -->
         <div>
             <ul>
 		<li><img src="/images/folio2.jpg" width="155px" alt="" /></li>
@@ -59,35 +58,56 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
      </aside><!-- end of sidebar1 -->
 
 
-    	<section id="content"><!-- #content -->
-		<div class="newsbox">
-			<div id="post">
-				<h1>First Jekyll Blog</h1>
-				<p class="meta">08 May 2012 -WuXi</p>
-				<p>This is my first jekyll blog.
-Congratuations!</p>
-
-			</div>
-
-		</div>
-	</section>
-
-<aside id="sidebar2"><!-- sidebar2 -->
-<div id="related">
-  <h2>Related Posts</h2>
-  <ul class="posts">
-    
-      <li><span>22 Nov 2011</span> &raquo; <a href="/2011/11/22/open-source-everything.html">Open Source (Almost)</a></li>
-      
-  </ul>
+           
+    <section id="content"><!-- #content -->
+	         <div class="newsbox">
+            		<!--
+这里是 category_index.html 文件，里面使用到的一些 DOM 结构依赖 pizn.me 的样式。但您可以只参考里面的 jekyll 语法就好。这里的作用是显示出 category 分类列表。
+-->
+<section class="content fn-clear">
+<div class="content-cnt">
+    <div class="ui-grid-25 ui-grid-right content-top">
+            <section class="ui-grid-19 violet-post">
+                <div class="v-section-tit">
+                 <a href="/" rel="nofollow" >Home</a>
+                    <span>&#9830;</span>
+                    <a href="/archives.html" rel="nofollow" >Archives</a>
+                    <span>&#9830;</span>
+                    <h2>Category:&nbsp;&nbspJekyll</h2>
+                </div>
+                
+                <div class="violet-archive fn-clear">
+                 <div class="ui-grid-17 ui-grid-right ui-grid-bottom">
+                 <article class="article fn-clear">
+                            <span>08 May 2012</span> &raquo; <a href="/Jekyll/2012/05/08/My-First-Blog.html">First Jekyll Blog</a>
+                        </article><!-- //archive -->
+                 </div>
+             </div>
+             
+            </section><!-- //violet-post -->
+        </div>
 </div>
-</aside><!-- end of sidebar -->
-    </section><!-- end of #main content and sidebar-->
+</section><!-- //content -->
+        	 </div>
+		 </section>
+		 <aside id="sidebar2">
+<h4>Category</h4>
+<ul>
+   
+   
+   <li><a href="/categories/Others/" title="Others">Others (1)</a>
+    </li>
+    
+   <li><a href="/categories/Jekyll/" title="Jekyll">Jekyll (1)</a>
+    </li>
+    
+</ul>
+
+	</aside>
 </div>
 
 <!-- Free template distributed by http://freehtml5templates.com -->
 </body>
 </html>
-
 
 

@@ -8,16 +8,23 @@
     <section id="main"><!-- #main content and sidebar area -->
     {% include siderbar1.html %}
 
-    {% if("true") %}       
+           
     <section id="content"><!-- #content -->
 	         <div class="newsbox">
             		{{ content }}
         	 </div>
 		 </section>
-		 {% else %}
-		 ddd
-		 {% endif %}
-      
+		 <aside id="sidebar2">
+<h4>Category</h4>
+<ul>
+   
+   {% for category in site.categories %}
+   <li><a href="/{{ category | first }}/" title="{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+    </li>
+    {% endfor %}
+</ul>
+
+	</aside>
 </div>
 
 <!-- Free template distributed by http://freehtml5templates.com -->

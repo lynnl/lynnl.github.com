@@ -61,19 +61,33 @@ p.style1 {font: 18px/27px 'MichromaRegular', Arial, sans-serif;}
            
     <section id="content"><!-- #content -->
 	         <div class="newsbox">
-            		<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    
-    <li><span>08 May 2012</span> &raquo; <a href="/Jekyll/2012/05/08/My-First-Blog.html">First Jekyll Blog</a></li>
-    
-    <li><span>22 Nov 2011</span> &raquo; <a href="/Others/2011/11/22/open-source-everything.html">Open Source (Almost)</a></li>
-    
-  </ul>
-  
+            		<!--
+这里是 category_index.html 文件，里面使用到的一些 DOM 结构依赖 pizn.me 的样式。但您可以只参考里面的 jekyll 语法就好。这里的作用是显示出 category 分类列表。
+-->
+<section class="content fn-clear">
+<div class="content-cnt">
+    <div class="ui-grid-25 ui-grid-right content-top">
+            <section class="ui-grid-19 violet-post">
+                <div class="v-section-tit">
+                 <a href="/" rel="nofollow" >Home</a>
+                    <span>&#9830;</span>
+                    <a href="/archives.html" rel="nofollow" >Archives</a>
+                    <span>&#9830;</span>
+                    <h2>Category:&nbsp;&nbspOthers</h2>
+                </div>
+                
+                <div class="violet-archive fn-clear">
+                 <div class="ui-grid-17 ui-grid-right ui-grid-bottom">
+                 <article class="article fn-clear">
+                            <span>22 Nov 2011</span> &raquo; <a href="/Others/2011/11/22/open-source-everything.html">Open Source (Almost)</a>
+                        </article><!-- //archive -->
+                 </div>
+             </div>
+             
+            </section><!-- //violet-post -->
+        </div>
 </div>
-
-
+</section><!-- //content -->
         	 </div>
 		 </section>
 		 <aside id="sidebar2">

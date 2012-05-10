@@ -4,10 +4,6 @@ title: First Jekyll Blog
 place: WuXi
 ---
 
-{{ page.title }}
-================
-
-<p class="meta">{{page.date | date_to_string}} -{{page.place}}</p>
 This is my first jekyll blog.
 Congratuations!
 

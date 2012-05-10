@@ -14,7 +14,17 @@
             		{{ content }}
         	 </div>
 		 </section>
-      
+		 <aside id="sidebar2">
+<h4>Category</h4>
+<ul>
+   
+   {% for category in site.categories %}
+   <li><a href="/categories/{{ category | first }}/" title="{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a>
+    </li>
+    {% endfor %}
+</ul>
+
+	</aside>
 </div>
 
 <!-- Free template distributed by http://freehtml5templates.com -->
